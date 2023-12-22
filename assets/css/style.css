@@ -25,6 +25,9 @@
 .sidebar {
   grid-area: sidebar;
   background-color: gray;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .sidebar h2 {
   padding-bottom: 1rem;
@@ -47,12 +50,12 @@ li:hover {
   grid-template-columns: auto auto auto;
 }
 .card {
+  display: flex;
+  flex-direction: column;
   flex: 30%;
   margin: 10px;
   border: solid 1px black;
   border-radius: 1%;
-  display: flex;
-  flex-direction: column;
 }
 .card .text {
   flex-grow: 1;
