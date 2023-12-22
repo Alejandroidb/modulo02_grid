@@ -52,7 +52,6 @@ li:hover {
 .card {
   display: flex;
   flex-direction: column;
-  flex: 30%;
   margin: 10px;
   border: solid 1px black;
   border-radius: 1%;
